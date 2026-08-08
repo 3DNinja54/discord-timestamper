@@ -192,8 +192,11 @@ const timestampSelection: timestampType = await select({
 });
 
 const stopSpinner = startSpinner("Generating your Discord timestamp...");
+
 await wait(450);
+
 const unixTime = getUnixTime(completeDate);
+
 stopSpinner();
 
 const timestamp =
