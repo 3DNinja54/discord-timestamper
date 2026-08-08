@@ -1,6 +1,6 @@
 # Discord Timestamper
 
-This is an NPX package to quickly make Discord timestamps using your terminal.
+This is an NPX script to quickly make Discord timestamps using your terminal.
 
 ## Usage
 
@@ -26,4 +26,4 @@ OR
 deno run -A npm:discord-timestamper
 ```
 
-🧱 This package has been tested to work on npm and Deno, but has not been tested on pnpm, yarn, or bun.
+This package has been tested to work on npm and Deno, but has not been tested on pnpm, yarn, or bun.
