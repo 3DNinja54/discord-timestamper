@@ -2,6 +2,8 @@ name: Build and publish to npm
 
 on:
   push:
+    tags:
+      - v*.*.*
 
 permissions:
   contents: read
